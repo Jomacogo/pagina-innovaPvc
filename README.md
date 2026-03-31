@@ -9,10 +9,10 @@
 ## 📸 Vista previa
 
 
-![Home](<img width="1226" height="840" alt="image" src="https://github.com/user-attachments/assets/1786a432-154a-42b2-82ee-f7ff7b0344f2" />)
-![Productos](<img width="1209" height="858" alt="image" src="https://github.com/user-attachments/assets/b23bedf5-31f2-4649-9eb7-cf10e749242e" />)
-![Admin](<img width="1209" height="858" alt="image" src="https://github.com/user-attachments/assets/00cc77db-73ec-40ad-9d1d-97b8a2ae9aac" />
-)
+![Home]<img width="1207" height="856" alt="home_1" src="https://github.com/user-attachments/assets/d0397d2e-64eb-4171-9db5-619740b1bccf" />
+<img width="1212" height="857" alt="home-2" src="https://github.com/user-attachments/assets/534660ec-37c8-40df-b8df-6c29382e0723" />
+![Productos]<img width="1209" height="855" alt="productos" src="https://github.com/user-attachments/assets/017d3429-7678-4f15-bdea-d17bf12c58d4" />
+![Admin]<img width="1209" height="858" alt="admin" src="https://github.com/user-attachments/assets/131f6fbe-e30e-43c8-b7eb-b0c2a9491930" />
 
 ---
 
