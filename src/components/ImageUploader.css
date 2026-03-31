@@ -1,0 +1,128 @@
+.image-uploader {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.upload-zone {
+  position: relative;
+  border: 2px dashed var(--border-color);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: var(--transition);
+  overflow: hidden;
+  background: var(--bg-glass);
+  min-height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload-zone:hover,
+.upload-zone-drag {
+  border-color: var(--accent-primary);
+  background: var(--accent-glow);
+}
+
+.upload-zone-has-image {
+  border-style: solid;
+  border-color: var(--border-hover);
+  min-height: 140px;
+}
+
+/* PLACEHOLDER */
+.upload-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 1.25rem 1rem;
+  text-align: center;
+  pointer-events: none;
+}
+
+.upload-icon {
+  font-size: 1.8rem;
+  margin-bottom: 0.25rem;
+}
+
+.upload-label {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.upload-hint {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+
+.upload-formats {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
+/* PREVIEW */
+.upload-preview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  max-height: 200px;
+  border-radius: var(--radius-md);
+}
+
+.upload-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.upload-zone:hover .upload-overlay {
+  opacity: 1;
+}
+
+.upload-change-text {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.upload-remove-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 10;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(224, 82, 96, 0.9);
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.upload-remove-btn:hover {
+  background: var(--danger);
+  transform: scale(1.1);
+}
+
+.upload-error {
+  font-size: 0.78rem;
+  color: var(--danger);
+}
+
+.upload-input-hidden {
+  display: none;
+}

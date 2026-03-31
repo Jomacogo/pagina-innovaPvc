@@ -1,0 +1,30 @@
+.products-page {
+  padding-top: 80px;
+  min-height: 100vh;
+  background: var(--bg-secondary);
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding-bottom: 4rem;
+}
+
+.products-empty {
+  text-align: center;
+  padding: 5rem 0;
+  color: var(--text-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.products-empty span {
+  font-size: 3rem;
+}
+
+.products-empty p {
+  font-size: 1.1rem;
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "nombre": "Bolso Clásico",
+    "descripcion": "Bolso de cuero sintético con acabado premium y costuras reforzadas.",
+    "colores": [
+      {
+        "nombre": "Negro",
+        "hex": "#1a1a2e",
+        "imagen": "/images/bolso-negro.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Café",
+        "hex": "#6b4226",
+        "imagen": "/images/bolso-cafe.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Vino",
+        "hex": "#722f37",
+        "imagen": "/images/bolso-vino.png",
+        "disponible": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Cartera Elegante",
+    "descripcion": "Cartera compacta ideal para el día a día con múltiples compartimentos.",
+    "colores": [
+      {
+        "nombre": "Rosa",
+        "hex": "#e8a0bf",
+        "imagen": "/images/cartera-rosa.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Beige",
+        "hex": "#d4a574",
+        "imagen": "/images/cartera-beige.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Negro",
+        "hex": "#1a1a2e",
+        "imagen": "/images/cartera-negro.png",
+        "disponible": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Mochila Urbana",
+    "descripcion": "Mochila resistente al agua con diseño moderno y ergonómico.",
+    "colores": [
+      {
+        "nombre": "Azul Marino",
+        "hex": "#1b3a5c",
+        "imagen": "/images/mochila-azul.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Gris",
+        "hex": "#6b7280",
+        "imagen": "/images/mochila-gris.png",
+        "disponible": false
+      },
+      {
+        "nombre": "Verde Oliva",
+        "hex": "#4a5d23",
+        "imagen": "/images/mochila-verde.png",
+        "disponible": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Clutch de Noche",
+    "descripcion": "Clutch sofisticado con detalles metálicos para ocasiones especiales.",
+    "colores": [
+      {
+        "nombre": "Dorado",
+        "hex": "#c9a84c",
+        "imagen": "/images/clutch-dorado.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Plateado",
+        "hex": "#a8a9ad",
+        "imagen": "/images/clutch-plateado.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Negro",
+        "hex": "#1a1a2e",
+        "imagen": "/images/clutch-negro.png",
+        "disponible": false
+      }
+    ]
+  }
+]
