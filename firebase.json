@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "catalogo-innovapvc",
     "public": "dist",
     "ignore": [
       "firebase.json",
