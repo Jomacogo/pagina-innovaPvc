@@ -2,8 +2,7 @@
 
 🚀 Proyecto enfocado en frontend moderno con React + uso profesional de inteligencia artificial
 
-🔗 **Demo en vivo:** https://tu-link-aqui.com
-
+🔗 **Demo en vivo:** https://catalogo-innovapvc.web.app
 ---
 
 ## 📸 Vista previa
@@ -163,12 +162,6 @@ El uso de IA incluyó:
 * Optimización de código
 
 Todo el código fue revisado, adaptado y validado manualmente para asegurar calidad profesional.
-
----
-
-## 🎥 Demo
-
-https://catalogo-innovapvc.web.app
 
 ---
 
