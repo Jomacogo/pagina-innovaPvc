@@ -116,7 +116,7 @@ export default function Admin() {
               className="form-input"
               value={formData.nombre}
               onChange={(e) => handleFormChange('nombre', e.target.value)}
-              placeholder="Ej: Bolso Clásico"
+              placeholder="Ej: Marmol, Madera"
               required
             />
           </div>

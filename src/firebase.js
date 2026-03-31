@@ -3,13 +3,13 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCSSkqJickqM6lCATQ3FJSE2kfkKw-CVjE",
-  authDomain: "catalogo-innovapvc.firebaseapp.com",
-  projectId: "catalogo-innovapvc",
-  storageBucket: "catalogo-innovapvc.firebasestorage.app",
-  messagingSenderId: "793959801094",
-  appId: "1:793959801094:web:9fb405699ea74b4984be87",
-  measurementId: "G-VDVT3QL72Y"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
 // Initialize Firebase
